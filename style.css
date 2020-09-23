@@ -1,0 +1,98 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(219, 220, 221);
+  font-size: small;
+  height: 324px;
+  width: 850px;
+  margin-top: 20px;
+}
+
+#background {
+  font-family: "Arial Black", Gadget, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: xx-large;
+  background-image: url(img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 850px;
+  height: 450px;
+}
+
+#message {
+  width: 210px;
+  height: 75px;
+  border: none;
+  resize: none;
+}
+
+#name {
+  height: 25px;
+  width: 210px;
+  border: none;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  padding-left: 100px;
+  margin-top: 10px;
+}
+
+p {
+  margin: 0;
+  font: normal;
+}
+
+button {
+  width: 70px;
+  height: 30px;
+  background: rgb(92, 91, 91);
+  margin-top: 15px;
+  border: none;
+  color: white;
+  font-size: medium;
+  font-weight: bolder;
+}
+
+#social-media {
+  margin-left: 0;
+  width: 270px;
+  line-height: 0.9;
+  margin-top: 15px;
+  white-space: nowrap;
+}
+
+#office-info {
+  width: 270px;
+  margin-left: 20px;
+  line-height: 0.9;
+  margin-top: 15px;
+  padding-left: 20px;
+  white-space: nowrap;
+}
+
+#social {
+  margin-bottom: 30px;
+}
+
+#office {
+  margin-bottom: 30px;
+}
+
+h3 {
+  font: medium;
+  font-weight: 3000;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
